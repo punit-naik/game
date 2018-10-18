@@ -92,6 +92,10 @@ lein test
 |-----------------+---------+---------|
 ```
 
+## API Docs
+
+[game](https://punit-naik.github.io/game)
+
 ## License
 
 Copyright © 2018 [Punit Naik](https://github.com/punit-naik)
