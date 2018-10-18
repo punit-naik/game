@@ -4,7 +4,7 @@
             [game.utils.core :refer [random-pairs replace-elements sub-2d-coll print-grid]])
   (:gen-class))
 
-(defn- make-map
+(defn make-map
   "Creates a `n`x`n` map (as a 2D vector) of the game world
    If the value of the 2D vector element :
    a. is -1, then it's the location which has been already visited/traversed
@@ -15,7 +15,7 @@
   [n]
   (vec (take n (repeat (vec (take n (repeat 0)))))))
 
-(defn- create-enemies
+(defn create-enemies
   "Creates enemies at random locations bounded by `n` (dimension of the map)
    The number of enemies are controlled through `num-enemies`
    Optionally one can specify `disallowed-pairs` which is a set of locations
@@ -35,7 +35,7 @@
                  (random-pairs n (- num-enemies (count result-set))))
                disallowed-pairs))))))))
 
-(defn- populate-game-world
+(defn populate-game-world
   "Populates a game world (map) specified by the arg `world`
    with the entities specified by `what?`
    which will be [enemy, player, destination, unvisited-location, visited-location]
@@ -113,7 +113,7 @@
                         game-world
                         (- h health-points-to-be-negated))))))))))
 
-(defn- play-game
+(defn play-game
   "Starts the gameplay loop"
   ([map-size] (play-game map-size 10))
   ([map-size enemy-percentage]
