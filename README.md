@@ -40,10 +40,10 @@ Sample `show surroundings` output:
 |   | e | d |
 -------------
 ```
-Locations marked as `e` are the locations where the enemies are present
-Location marked as `p` is the player's location
-Location marked as `d` is the destination
-And empty cells are just locations which can be traversed
+Locations marked as `e` are the locations where the enemies are present  
+Location marked as `p` is the player's location  
+Location marked as `d` is the destination  
+And empty cells are just locations which can be traversed  
 
 **NOTE**: The player can never see the entire map of the game world
 
