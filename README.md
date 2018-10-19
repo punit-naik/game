@@ -12,7 +12,7 @@ The player can move:
 * Right by typing `move right` in the console an pressing enter
 * Down by typing `move down` in the console an pressing enter
 
-The player can request a map of the currently explored locations by typing `show map` in the console and pressing enter
+The player can request a map of the currently explored locations by typing `show map` in the console and pressing enter  
 Sample `show map` output:
 ```
 ---------------------
@@ -29,7 +29,7 @@ Sample `show map` output:
 ```
 Locations marked as `x` are the locations which have been visited.
 
-The player can also view their immediate surroundings (one step in all directions) by typing `show surroundings` in the console and pressing enter
+The player can also view their immediate surroundings (one step in all directions) by typing `show surroundings` in the console and pressing enter  
 Sample `show surroundings` output:
 ```
 -------------
